@@ -1,0 +1,15 @@
+<style>
+   .playlist-row{
+       border-bottom: 2px solid transparent;
+   }
+</style>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+  
+        <playlists-list [selected]="selected" (selected)="select($event)" (leaved)="leave($event)" [playlists]="playlists"></playlists-list>
+       
+    </div>
+
+
+</div>
+
